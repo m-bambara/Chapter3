@@ -2,7 +2,6 @@ package jp.techacademy.motoyoshi.chapter3
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 
 
 class MainActivity : AppCompatActivity() {
@@ -11,11 +10,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // クラス
-        val human = Human("AAA",15)
-//        val hobby = "BBB"
+        val human = Human("AAA", 15, "BBB")
 
 
         human.say()
-//        human.think()
+        human.think()
     }
 }
