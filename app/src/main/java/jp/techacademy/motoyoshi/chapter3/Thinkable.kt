@@ -1,7 +1,7 @@
 package jp.techacademy.motoyoshi.chapter3
 
 interface Thinkable {
-    abstract var hobby: String
-
-    fun think()
+//    abstract var hobby: String
+//
+//    fun think()
 }

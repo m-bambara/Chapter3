@@ -2,7 +2,6 @@ package jp.techacademy.motoyoshi.chapter3
 
 
 abstract class Animal {
-
     // プロパティ
     var name: String
     var age: Int

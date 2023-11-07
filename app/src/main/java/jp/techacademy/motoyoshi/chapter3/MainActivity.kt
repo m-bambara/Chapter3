@@ -11,11 +11,11 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         // クラス
-        val human = Human("AAA", 15)
-        val hobby = "B"
+        val human = Human("AAA",15)
+//        val hobby = "BBB"
 
 
         human.say()
-        human.think()
+//        human.think()
     }
 }
